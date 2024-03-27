@@ -27,8 +27,8 @@ class Node():
                     self.right_child = node
                     return True
             else:
-                    return self.right_child.insert(node)
-            
+                    return self.right_child.insert(node)  
+        
         else:
             return False
             

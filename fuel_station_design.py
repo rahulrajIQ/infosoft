@@ -1,9 +1,7 @@
-from enum import Enum
 from typing import Literal
 
-
-
 class FuelStation:
+
     allowed_fuel_type = Literal["diesel","petrol","electric"]
 
     def __init__(self, diesel: int, petrol: int, electric: int):
